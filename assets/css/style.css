@@ -1,0 +1,16 @@
+.namePlate {
+	text-align:center;
+}
+
+#characterButtons {
+	align-content: center;
+}
+
+#searchForm {
+	float:right;
+	padding-right:30px;
+}
+
+#searchIdentifier {
+	text-align:center;
+}

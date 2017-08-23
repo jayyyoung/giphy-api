@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game of Thrones GIFs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class='container'>
+        <div class="namePlate panel panel-default">
+            <div class="panel-heading"><h1>Search Your Favorite Game of Thrones GIFs</div>
+            <div class="panel-body"><h5> Type into the search-bar your favorite Game of Thrones character, scene or anything else and watch the button appear. Then just click on it to watch the GIFs appear!</h5></div>
+        </div>
+        <!-- This is where the buttons created end up -->
+        <div class='row'>
+            <div class="panel panel-default">
+                <div id='characterButtons'></div>
+            </div>    
+        </div>
+        <div class="panel panel-default">
+            <div class='row'>
+                <!-- Where the gifs appear -->
+                <div class='col-lg-8'>
+                    <div class='display'></div>
+                </div>
+                <!-- Where you type in your character name -->
+                <div class='col-lg-4'>
+                    <form id='searchForm'>
+                        <label for='searchedCharacter' id="searchIdentifier">Add your Game of Thrones character!</label><br>
+                        <input type='text' id='searchedCharacter'>
+                        <input id='addCharacter' type='submit' value='Search' class="btn btn-success">
+                    </form>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/javascriptbu.js"></script>
+</body>
+
+</html>
